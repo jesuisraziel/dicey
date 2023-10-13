@@ -15,6 +15,7 @@ class ControlsFrame(ttk.Frame):
         
 
     def setup_modifier_controls(self):
+        
         decrement_button = ttk.Button(self, text="-", command=self.decrement)
         decrement_button.grid(column=0, row=0)
         decrement_button.state(['disabled'])
